@@ -90,7 +90,7 @@ nav {
 
 .main h1 {
     font-family: 'Inter';
-    font-size: 130px;
+    font-size: 70px;
     color: #5005dc;
     font-weight: 900;
     letter-spacing: 7px;
@@ -182,24 +182,6 @@ th {
     margin-bottom: 40px;
 }
 
-
-@media screen and (min-width: 480px) and (max-width: 768px) {
-
-    .main h1 {
-        font-size: 40px;
-    }
-
-    .main h3 {
-        font-size: 20px;
-    }
-
-    .links {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-
-
 .section-title {
     text-align: center;
     color: #fff;
@@ -238,4 +220,33 @@ button {
 
 button:hover {
     background: rgba(128, 128, 128, 0.579);
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .links {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .main h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .main h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .link {
+        width: 80%;
+    }
 }
