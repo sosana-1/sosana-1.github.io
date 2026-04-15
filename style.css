@@ -130,6 +130,10 @@ footer {
     font-weight: 400;
     margin-top: 0%;
 }
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+}
 
 table {
     width: 100%;
