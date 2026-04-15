@@ -243,11 +243,6 @@ button:hover {
         padding: 10px;
     }
 
-    .links {
-        flex-direction: column;
-        width: 100%;
-        gap: 10px;
-    }
 
     .main h1 {
         font-size: 40px;
