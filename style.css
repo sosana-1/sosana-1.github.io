@@ -40,8 +40,6 @@ nav {
 }
 
 .links {
-    width: auto;
-    gap: 20px;
     height: 70PX;
     background-color: rgba(255, 228, 196, 0);
     display: flex;
