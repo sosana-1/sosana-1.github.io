@@ -30,8 +30,9 @@ nav {
 }
 
 .links {
+    width: auto;
+    gap: 20px;
     height: 70PX;
-    width: 50%;
     background-color: rgba(255, 228, 196, 0);
     display: flex;
     justify-content: space-around;
@@ -147,7 +148,7 @@ table {
     justify-content: space-around;
     margin: auto;
     flex-direction: column;
-
+     overflow-x: auto;
 
 }
 
