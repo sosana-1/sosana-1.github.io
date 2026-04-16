@@ -2,22 +2,19 @@
     padding: 0;
     border: 0;
     margin: 0;
-    box-sizing: border-box;
+   
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
+
 .header {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-image: url(Images/background.png);
     background-position: center;
     background-size: cover;
-    top: 0;
-    left: 0;
-} 
+     background-attachment: fixed;
+     
+}
 
 nav {
     width: 100%;
@@ -26,10 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-     gap: 15px;
 }
-main{
-     flex: 1;}
 
 .logo {
     height: 70px;
@@ -37,21 +31,19 @@ main{
     background-image: url(Images/training-icon.jpg);
     background-position: center;
     background-size: cover;
+   
 }
 
 .links {
     height: 70PX;
-    background-color: rgba(255, 228, 196, 0);
+    width: 50%;
+    background-color: rgba(178, 103, 11, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo h2 {
-    color: rgb(235, 1, 134);
-    font-size: 35px;
-    font-weight: 500;
-}
+
 
 .link a {
     text-decoration: none;
@@ -59,6 +51,7 @@ main{
     font-size: 25px;
     color: rgb(255, 0, 157);
     font-weight: 500;
+    transition-duration: 0.5s;
 }
 
 .link {
@@ -88,14 +81,12 @@ main{
 
 .main {
     width: 100%;
-    height: 590px;
+    height: 700px;
     background: rgba(18, 123, 158, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 0%;
-    
 }
 
 .main h1 {
@@ -125,17 +116,15 @@ main{
 footer {
     height: 50px;
     background-color: #f3029a;
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    font-weight: 400;
-    margin-top: 0%;
+    font-size: 20px;
+    font-weight: 300;
 }
-.table-container {
-  overflow-x: auto;
-  width: 100%;
-}
+
+
 
 table {
     width: 100%;
@@ -145,6 +134,7 @@ table {
     align-items: center;
     margin: auto;
     color: #fff;
+    flex-direction: column;
 
 }
 
@@ -160,8 +150,7 @@ table {
     font-weight: 500;
     justify-content: space-around;
     margin: auto;
-    flex-direction: column;
-     overflow-x: auto;
+
 
 }
 
@@ -196,6 +185,9 @@ th {
     margin-bottom: 40px;
 }
 
+
+
+
 .section-title {
     text-align: center;
     color: #fff;
@@ -206,6 +198,16 @@ th {
 
 
 form {
+   /* width: 90%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;*/
     margin-top: 20px;
     align-items: center;
     text-align: center;
@@ -236,20 +238,28 @@ button:hover {
     background: rgba(128, 128, 128, 0.579);
 }
 
-@media (max-width: 768px) {
+
+
+ /*@media (max-width: 768px) {
 
     nav {
         flex-direction: column;
         height: auto;
         padding: 10px;
     }
-      .nav a {
+
+    
+  .nav a {
     width: 100%;
     text-align: center;
   }
-    .main {
-    padding: 10px;
+  .main{
+    height:;
   }
+   footer{
+   margin-top: 80%;
+   }
+
     .main h1 {
         font-size: 40px;
         text-align: center;
@@ -263,4 +273,4 @@ button:hover {
     .link {
         width: 80%;
     }
-}
+}*/
