@@ -239,8 +239,7 @@ button:hover {
 }
 
 
-
- /*@media (max-width: 768px) {
+@media (max-width: 768px) {
 
     nav {
         flex-direction: column;
@@ -252,25 +251,8 @@ button:hover {
   .nav a {
     width: 100%;
     text-align: center;
-  }
-  .main{
-    height:;
-  }
-   footer{
-   margin-top: 80%;
-   }
-
-    .main h1 {
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .main h3 {
-        font-size: 20px;
-        text-align: center;
-    }
-
+ 
     .link {
         width: 80%;
     }
-}*/
+}
